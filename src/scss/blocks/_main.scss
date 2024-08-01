@@ -1,0 +1,74 @@
+main{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.portfolio {
+    min-width: 390px;
+    max-width: 1110px;
+    padding-top: 50px;
+    padding-bottom: 115px;
+}
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    .portfolio-header {
+        margin: 0;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 130%;
+        text-align: center;
+        color: black;
+    }
+}
+.portfolio-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    margin-bottom: 30px;
+    width: 525px;
+    background-color: white;
+    box-shadow: 0px 10px 40px 0px rgba(126, 155, 189, 0.35);
+    transition: transform 0.2s ease-in;
+    .card-link {
+        padding: 20px;
+        color: black ;
+        text-decoration: none;
+        display: block;
+        transition: color 0.2s ease-in  ;
+    }
+    .card-link:hover{
+        color: rgb(21, 0, 255);
+    }
+   
+    .card-img {
+        margin-bottom: 20px;
+    }
+    .card-title {
+        margin: 0;
+        margin-bottom: 13px;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 130%;
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-style: 16px;
+        line-height: 130%;    
+    }
+}
+.card:hover {
+    transform: translateY(-15px);
+}
+
+
